@@ -1,11 +1,12 @@
-import Component1 from './components/Component1'
-import Component2 from './components/Component2'
+import Component1 from './components/Component1/Component1'
+import Component2 from './components/Component2/Component2'
 
 function App() {
   return (
     <div className="App">
       <Component1 />
-      <Component2 />
+      <Component2 heading='2' />
+      <Component2 heading='3' />
     </div>
   );
 }
@@ -28,5 +29,7 @@ export default App;
   - Can be re-used
 
   ----------------------------
-
+  PROPS - 
+  [In the scope of function, relate it with function parameters]
+  - It is the data that is transferred from the parent component to the child components
 */
